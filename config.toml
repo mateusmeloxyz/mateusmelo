@@ -1,0 +1,56 @@
+baseURL = 'https://mateusmelo.xyz'
+languageCode = 'en-us'
+title = "Mateus Melo's Webpage"
+theme = 'etch'
+
+[params]
+  description = "Wellcome to my personal website"
+  copyright = "Copyright © 2021 Mateus Melo"
+  dark = "auto"
+  highlight = true
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "posts"
+    title = "posts"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    title = "about"
+    url = "/about/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "resume"
+    name = "resume"
+    title = "resume"
+    url = "/resume/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "github"
+    name = "github"
+    title = "github"
+    url = "https://github.com/mateusgomes01"
+    weight = 25
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "contact"
+    title = "contact"
+    url = "/#contact"
+    weight = 35
+
+[permalinks]
+  posts = "/:title/"
+
+[markup.goldmark.renderer]
+  # Allow HTML in Markdown
+  unsafe = false
+
+  [markup.tableOfContents]
+    ordered = true
