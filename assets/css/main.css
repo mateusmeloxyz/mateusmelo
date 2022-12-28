@@ -109,8 +109,8 @@ main#content abbr {
 }
 
 /* index.html styles */
-main#content ul#posts,
-main#content ul#contact {
+main#content ul#posts-list,
+main#content ul#contact-list {
     list-style-type: none;
     font-size: 16px;
     font-size: 1.6rem;
@@ -118,31 +118,31 @@ main#content ul#contact {
     padding: 0;
 }
 
-main#content ul#posts li,
-main#content ul#contact li {
+main#content ul#posts-list li,
+main#content ul#contact-list li {
     margin: 5px 0;
     padding: 0;
 }
 
-main#content ul#posts small,
-main#content ul#contact small {
+main#content ul#posts-list small,
+main#content ul#contact-list small {
     font-size: 0.8em;
     color: #767676;
     margin-left: 10px;
 }
 
-main#content ul#posts li a,
-main#content ul#contact li a {
+main#content ul#posts-list li a,
+main#content ul#contact-list li a {
     text-decoration: none;
 }
 
-main#content ul#posts li a:hover,
-main#content ul#contact li a:hover {
+main#content ul#posts-list li a:hover,
+main#content ul#contact-list li a:hover {
     color: #369aff;
 }
 
-main#content ul#posts li a:hover small,
-main#content ul#contact li a:hover small {
+main#content ul#posts-list li a:hover small,
+main#content ul#contact-list li a:hover small {
     color: inherit;
 }
 
