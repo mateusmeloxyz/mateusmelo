@@ -5,7 +5,8 @@ theme = 'etch'
 
 [params]
   description = "Wellcome to my personal website"
-  copyright = "Copyright © 2021 Mateus Melo"
+  copyright = "CC BY-SA 🅭"
+  name = "Mateus Melo"
   dark = "auto"
   highlight = true
 
@@ -14,7 +15,7 @@ theme = 'etch'
     identifier = "posts"
     name = "posts"
     title = "posts"
-    url = "/"
+    url = "/posts/"
     weight = 10
 
   [[menu.main]]
