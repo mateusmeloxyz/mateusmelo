@@ -4,7 +4,7 @@ date: 2022-12-27T16:01:42-03:00
 draft: false
 ---
 
-I've decided to run my website on hugo from now on so that I can focus more on bringing more content to the web with minimal effort.
+I've decided to run my website on [hugo](https://gohugo.io/) from now on so that I can focus more on bringing more content to the web with minimal effort.
 
 I would love to create my own static website generator later, but right now I must prioritize writing and producing useful content as much as possible and I feel like hugo's pre-built structure will serve me right for the time being.
 
