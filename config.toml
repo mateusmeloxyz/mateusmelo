@@ -1,6 +1,6 @@
 baseURL = 'https://mateusmelo.xyz'
 languageCode = 'en-us'
-title = "Mateus Melo's Webpage"
+title = "Mateus Melo"
 theme = 'etch'
 
 [params]
@@ -55,3 +55,14 @@ theme = 'etch'
 
   [markup.tableOfContents]
     ordered = true
+
+[languages]
+  [languages.en]
+    languageName = 'en 🇬🇧'
+    weight = 10
+    contentDir = 'content/en'
+  [languages.pt]
+    title = "Mateus Melo"
+    languageName = 'pt 🇧🇷'
+    weight = 20
+    contentDir = 'content/pt'

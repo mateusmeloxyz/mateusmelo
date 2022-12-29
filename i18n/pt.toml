@@ -1,0 +1,28 @@
+# Learn how to use Date format (date, created, updated)
+# -> https://gohugo.io/functions/dateformat/
+
+[posts]
+
+[posts.title]
+other = "Posts"
+
+[posts.date]
+other = "Jan 2, 2006"
+
+
+[post]
+
+[post.created]
+other = "January 2, 2006"
+
+[post.updated]
+other = "Atualizado em January 2, 2006"
+
+[about]
+other = "sobre mim"
+
+[resume]
+other = "CV"
+
+[contact]
+other = "contato"

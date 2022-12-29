@@ -1,0 +1,19 @@
+    {{ if .IsTranslated }}
+	    <nav class="LangNav">
+	    {{ range .Translations }}
+		    <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+	    {{ end}}
+	    </nav>
+    {{ end }}
+<header id="banner">
+    <h2><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h2>
+    <nav>
+        <ul>
+            {{ range .Site.Menus.main.ByWeight -}}
+            <li>
+                {{ .Pre }}<a href="{{ .URL }}" title="{{ .Title }}">{{- i18n .Identifier | default .Name -}}</a>{{ .Post }}
+            </li>
+            {{- end }}
+        </ul>
+    </nav>
+</header>
