@@ -36,7 +36,7 @@ theme = 'etch'
     identifier = "github"
     name = "github"
     title = "github"
-    url = "https://github.com/mateusgomes01"
+    url = "https://github.com/mateusmeloxyz"
     weight = 25
 
   [[menu.main]]
