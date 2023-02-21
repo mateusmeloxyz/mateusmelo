@@ -5,7 +5,7 @@ theme = 'etch'
 
 [params]
   description = "Wellcome to my personal website"
-  copyright = "CC BY-SA 🅭"
+  copyright = "CC BY-SA ©"
   name = "Mateus Melo"
   dark = "auto"
   highlight = true
