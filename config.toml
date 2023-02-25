@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = "Mateus Melo"
 theme = 'etch'
 
+contentDir = 'content'
+
 [params]
   description = "Wellcome to my personal website"
   copyright = "CC BY-SA ©"
@@ -56,13 +58,16 @@ theme = 'etch'
   [markup.tableOfContents]
     ordered = true
 
+languageCode = "en"
+
+# Multi-lang Settings
 [languages]
   [languages.en]
-    languageName = 'en 🇬🇧'
+    languageName = 'English'
     weight = 10
     contentDir = 'content/en'
   [languages.pt]
     title = "Mateus Melo"
-    languageName = 'pt 🇧🇷'
+    languageName = 'Português'
     weight = 20
     contentDir = 'content/pt'

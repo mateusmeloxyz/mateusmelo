@@ -3,6 +3,7 @@ title: "Mudando para o Hugo"
 slug: "mudando-para-o-hugo"
 date: 2022-12-27T16:01:42-03:00
 draft: false
+translationKey: moving-to-hugo
 ---
 
 Eu decidi por rodar meu site no [hugo](https://gohugo.io/) de agora em diante para que eu possa focar em trazer mais conteúdo para a web com esforços mínimos.

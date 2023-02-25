@@ -1,6 +1,7 @@
 ---
 title: "About"
 draft: false
+translationKey: about
 ---
 
 ### Who am I?

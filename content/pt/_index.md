@@ -2,6 +2,7 @@
 title: ""
 date: 2022-12-27T17:59:30-03:00
 draft: false
+translationKey: homepage
 ---
 
 Bem vindo ao meu website pessoal

@@ -2,6 +2,7 @@
 title: "Moving to Hugo"
 date: 2022-12-27T16:01:42-03:00
 draft: false
+translationKey: moving-to-hugo
 ---
 
 I've decided to run my website on [hugo](https://gohugo.io/) from now on so that I can focus more on bringing more content to the web with minimal effort.

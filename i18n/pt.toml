@@ -7,13 +7,13 @@
 other = "Posts"
 
 [posts.date]
-other = "Jan 2, 2006"
+other = "2 Jan 2006"
 
 
 [post]
 
 [post.created]
-other = "January 2, 2006"
+other = "2 January 2006"
 
 [post.updated]
 other = "Atualizado em January 2, 2006"

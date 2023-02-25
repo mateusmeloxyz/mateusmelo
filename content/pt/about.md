@@ -2,6 +2,7 @@
 title: "Sobre mim"
 slug: "sobre-mim"
 draft: false
+translationKey: about
 ---
 
 ### Quem sou eu?
